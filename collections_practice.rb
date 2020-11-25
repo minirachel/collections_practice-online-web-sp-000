@@ -43,11 +43,20 @@ def sum_array(array)
 end
 
 def add_s(array)
+<<<<<<< HEAD
   array.each_with_index.collect do |words, index|
     if index == 1
       words
     else
       words << "s"
+=======
+  i = 0
+  while i < array.length
+    if i ==1
+      i = 2
+    else
+      array[i] << "s"
+>>>>>>> 43c6cd4d59998fa4c34a0ad90a9d87ae96555617
     end
   end
 end
